@@ -1,0 +1,23 @@
+{
+    "name": "buresm/weather-forecast",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Bureš",
+            "email": "michal.ezop@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-mysqli": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "dibi/dibi": "^3.1"
+    },
+    "autoload": {
+        "files": [
+            "app/ServiceLocator.php",
+            "app/Repository.php"
+        ]
+    }
+}
